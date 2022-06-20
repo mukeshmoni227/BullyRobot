@@ -92,3 +92,6 @@ async def quotly_func(client, message: Message):
         )
         e = format_exc()
         print(e)
+
+
+__mod_name__ = "Qᴜᴏᴛʟʏ"
