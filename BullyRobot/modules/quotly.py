@@ -97,3 +97,9 @@ async def quotly_func(client, message: Message):
 __mod_name__ = "Qᴜᴏᴛʟʏ"
 
 __help__ = """
+
+ᴍᴀᴋᴇs ᴀ ǫᴜᴏʏʟʏ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ ᴀɴᴅ sᴇɴᴅ ɪᴛ ᴛᴏ ʏᴏᴜ.
+
+❍ /q *:* ᴍᴀᴋᴇs ᴄᴀʀʙᴏɴ ɪғ ʀᴇᴩʟɪᴇᴅ ᴛᴏ ᴀ ᴛᴇxᴛ
+
+ """
