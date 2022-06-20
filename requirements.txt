@@ -60,3 +60,4 @@ gpytranslate
 yt_dlp
 opencv-python-headless
 youtube_search_python
+python-arq
