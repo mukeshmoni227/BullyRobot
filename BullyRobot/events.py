@@ -1,5 +1,4 @@
 import inspect
-import glob
 import logging
 import sys
 import re
@@ -13,14 +12,15 @@ from BullyRobot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["darkuserbot"]
+db = client["Anonymous"]
 gbanned = db.gban
 
+
 def register(**args):
-    """ Registers a new message. """
+    """Registers a new message."""
     pattern = args.get("pattern", None)
 
-    r_pattern = r"^[/!]"
+    r_pattern = r"^[/!.]"
 
     if pattern is not None and not pattern.startswith("(?i)"):
         args["pattern"] = "(?i)" + pattern
@@ -35,7 +35,7 @@ def register(**args):
 
 
 def chataction(**args):
-    """ Registers chat actions. """
+    """Registers chat actions."""
 
     def decorator(func):
         telethn.add_event_handler(func, events.ChatAction(**args))
@@ -45,7 +45,7 @@ def chataction(**args):
 
 
 def userupdate(**args):
-    """ Registers user updates. """
+    """Registers user updates."""
 
     def decorator(func):
         telethn.add_event_handler(func, events.UserUpdate(**args))
@@ -55,7 +55,7 @@ def userupdate(**args):
 
 
 def inlinequery(**args):
-    """ Registers inline query. """
+    """Registers inline query."""
     pattern = args.get("pattern", None)
 
     if pattern is not None and not pattern.startswith("(?i)"):
@@ -69,7 +69,7 @@ def inlinequery(**args):
 
 
 def callbackquery(**args):
-    """ Registers inline query. """
+    """Registers inline query."""
 
     def decorator(func):
         telethn.add_event_handler(func, events.CallbackQuery(**args))
@@ -119,12 +119,12 @@ def bot(**args):
                 print("i don't work in channels")
                 return
             if check.is_group:
-               if check.chat.megagroup:
-                  pass
-               else:
-                  print("i don't work in small chats")
-                  return
-                          
+                if check.chat.megagroup:
+                    pass
+                else:
+                    print("i don't work in small chats")
+                    return
+
             users = gbanned.find({})
             for c in users:
                 if check.sender_id == c["user"]:
@@ -146,7 +146,7 @@ def bot(**args):
     return decorator
 
 
-def BullyRobot(**args):
+def bullyrobot(**args):
     pattern = args.get("pattern", None)
     disable_edited = args.get("disable_edited", False)
     ignore_unsafe = args.get("ignore_unsafe", False)
@@ -175,42 +175,3 @@ def BullyRobot(**args):
     if pattern:
         if not ignore_unsafe:
             args["pattern"] = args["pattern"].replace("^.", unsafe_pattern, 1)
-
-
-def load_module(shortname):
-    if shortname.startswith("__"):
-        pass
-    elif shortname.endswith("_"):
-        import importlib
-        import BullyRobot.events
-
-        path = Path(f"BullyRobot/modules/{shortname}.py")
-        name = "BullyRobot.modules.{}".format(shortname)
-        spec = importlib.util.spec_from_file_location(name, path)
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        print("Successfully imported " + shortname)
-    else:
-        import importlib
-        import BullyRobot.events
-
-        path = Path(f"BullyRobot/modules/{shortname}.py")
-        name = "BullyRobot.modules.{}".format(shortname)
-        spec = importlib.util.spec_from_file_location(name, path)
-        mod = importlib.util.module_from_spec(spec)
-        mod.register = register
-        mod.BullyRobot = BullyRobot
-        mod.tbot = telethn
-        mod.logger = logging.getLogger(shortname)
-        spec.loader.exec_module(mod)
-        sys.modules["BullyRobot.modules." + shortname] = mod
-        print("Successfully imported " + shortname)
-
-
-path = "BullyRobot/modules/*.py"
-files = glob.glob(path)
-for name in files:
-    with open(name) as f:
-        path1 = Path(f.name)
-        shortname = path1.stem
-        load_module(shortname.replace(".py", ""))
