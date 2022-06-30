@@ -9,7 +9,7 @@ from BullyRobot import pbot as BullyRobot
     |----╒════════════╕----|
           |  Kang with credits |
           |----- Coded by: ----|
-          |       @cyberxron      |
+          |@jehrilla_cockroach |
           |----(2078119261)----|
           |      on telegram   |
     |----╘════════════╛----|
@@ -67,7 +67,7 @@ ROMANTIC_STRINGS = [
     Coded by : @Cyberxron on telegram...
 """
 
-@BullyRobot.on_message(filters.command("quotes, spider"))
+@BullyRobot.on_message(filters.command("quotes", "spider"))
 async def lel(bot, message):
     ran = random.choice(ROMANTIC_STRINGS)
     await bot.send_chat_action(message.chat.id, "typing")
@@ -79,8 +79,8 @@ __mod_name__ = "Qᴜᴏᴛᴇs"
 
 __help__ = """
 
-ᴍᴀᴋᴇs ᴀ sʜᴀʏᴀʀɪ ᴀɴᴅ sᴇɴᴅ ɪᴛ ᴛᴏ ʏᴏᴜ.
+ᴍᴀᴋᴇs ᴀ ǫᴜᴏᴛᴇ ᴀɴᴅ sᴇɴᴅ ɪᴛ ᴛᴏ ʏᴏᴜ.
 
-❍ /quotes or /spider *:* ᴍᴀᴋᴇs sʜᴀʏᴀʀɪ ɪғ ʏᴏᴜ sᴇɴᴅ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ
+❍ /quotes or /spider *:* ɢɪᴠᴇs ʏᴏᴜ ʙᴜʟʟʏ ᴍᴀɢᴜɪʀᴇ ǫᴜᴏᴛᴇs ɪғ ʏᴏᴜ sᴇɴᴅ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ
 
  """
