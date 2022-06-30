@@ -9,9 +9,9 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 ━━━━━━━━━━━━━━━━━━━━━━
-</p>
-## ㅤㅤㅤ 🖤ʙᴜʟʟʏ ʀᴏʙᴏᴛ🖤
-ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʙᴜʟʟʏ ʀᴏʙᴏᴛ​](https://t.me/bullyxguardianbot)
+🖤ʙᴜʟʟʏ ʀᴏʙᴏᴛ🖤
+ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs 
+[ʙᴜʟʟʏ ʀᴏʙᴏᴛ​](https://t.me/bullyxguardianbot)
 
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...
 ━━━━━━━━━━━━━━━━━━━━━━
