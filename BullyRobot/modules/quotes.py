@@ -15,7 +15,7 @@ from BullyRobot import pbot as BullyRobot
     |----╘════════════╛----|
 """
 
- QUOTES_STRINGS  = [   
+  QUOTES_STRINGS = [   
                      'I'm gonna put some dirt in your eye!',
                      'Look at little Goblin Junior. Gonna cry?',
                      'I am really gonna enjoy this...',
