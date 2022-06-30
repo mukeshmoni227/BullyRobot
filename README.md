@@ -2,7 +2,7 @@
     <a href="https://github.com/cyberxron/BullyRobot/stargazers"><img src="https://img.shields.io/github/stars/cyberxron/BullyRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://github.com/cyberxron/BullyRobot"> <img src="https://img.shields.io/github/repo-size/cyberxron/FallenRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/cyberxron/BullyRobot"> <img src="https://img.shields.io/github/repo-size/cyberxron/BullyRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/cyberxron/BullyRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/cyberxron/BullyRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/cyberxron/BullyRobot/issues"> <img src="https://img.shields.io/github/issues/cyberxron/BullyRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/cyberxron/BullyRobot/network/members"> <img src="https://img.shields.io/github/forks/cyberxron/BullyRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
