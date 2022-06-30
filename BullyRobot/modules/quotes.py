@@ -67,7 +67,7 @@ QUOTES_STRINGS = [
     Coded by : @Cyberxron on telegram...
 """
 
-@BullyRobot.on_message(filters.command("quotes", "spider"))
+@BullyRobot.on_message(filters.command(["quotes", "spider"]))
 async def lel(bot, message):
     ran = random.choice(QUOTES_STRINGS)
     await bot.send_chat_action(message.chat.id, "typing")
