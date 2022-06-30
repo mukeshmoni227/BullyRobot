@@ -2,17 +2,19 @@
     <a href="https://github.com/cyberxron/BullyRobot/stargazers"><img src="https://img.shields.io/github/stars/cyberxron/BullyRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://github.com/cyberxron/BullyRobot"> <img src="https://img.shields.io/github/repo-size/cyberxron/BullyRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/cyberxron/BullyRobot"> <img src="https://img.shields.io/github/repo-size/cyberxron/FallenRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/cyberxron/BullyRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/cyberxron/BullyRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/cyberxron/BullyRobot/issues"> <img src="https://img.shields.io/github/issues/cyberxron/BullyRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/cyberxron/BullyRobot/network/members"> <img src="https://img.shields.io/github/forks/cyberxron/BullyRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 ━━━━━━━━━━━━━━━━━━━━━━
-🖤ʙᴜʟʟʏ ʀᴏʙᴏᴛ🖤
-ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs 
-[ʙᴜʟʟʏ ʀᴏʙᴏᴛ​](https://t.me/bullyxguardianbot)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99018732/176622044-67b5214c-4169-4fe1-8b73-66f32f14a93c.jpg">
+</p>
 
+## ㅤㅤㅤ 🖤ʙᴜʟʟʏ ʀᴏʙᴏᴛ🖤
+ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [💞ʙᴜʟʟʏ ʀᴏʙᴏᴛ​💞](https://t.me/bullyxguardianbot)
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...
 ━━━━━━━━━━━━━━━━━━━━━━
 ## ㅤㅤㅤᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ​ 🚀
