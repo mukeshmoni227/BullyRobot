@@ -69,7 +69,7 @@ from BullyRobot import pbot as BullyRobot
 
 @BullyRobot.on_message(filters.command("quotes", "spider"))
 async def lel(bot, message):
-    ran = random.choice(ROMANTIC_STRINGS)
+    ran = random.choice(QUOTES_STRINGS)
     await bot.send_chat_action(message.chat.id, "typing")
     await asyncio.sleep(1.5)
     return await message.reply_text(text=ran)
