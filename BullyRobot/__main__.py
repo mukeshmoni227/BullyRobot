@@ -29,7 +29,7 @@ from BullyRobot import (
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from BullyRobot.modules import ALL_MODULES
 import BullyRobot.modules.sql.users_sql as sql
-from Bullybot.modules.helper_funcs.chat_status import is_user_admin
+from BullyRobot.modules.helper_funcs.chat_status import is_user_admin
 from BullyRobot.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
